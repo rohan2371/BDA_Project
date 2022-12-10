@@ -1,6 +1,6 @@
 
 
-const { use } = require('../routes/route');
+// const { use } = require('../routes/route');
 const User = require('../schema/userSchema');
 
 
@@ -19,4 +19,4 @@ const addUser =  async (req,res)=>{
     }
 }
 
-// module.exports = addUser;
+module.exports = addUser;
