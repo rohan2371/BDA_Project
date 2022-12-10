@@ -11,9 +11,9 @@ export const addUser = async(data)=>{
         }
 }
 
-export const getUsers = async()=>{
+export const getUser = async()=>{
     try{
-        return await axios.get(`${URL}/all`)
+        return await axios.get('http://localhost:5001/all')
 
     }catch(error){
         console.log("Error while fetching the data",error);

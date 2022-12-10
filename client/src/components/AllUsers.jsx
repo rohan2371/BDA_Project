@@ -1,6 +1,6 @@
 
 
-const getUser = require('../services/api');
+import { getUser } from '../services/api';
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import { useEffect } from 'react';
 
