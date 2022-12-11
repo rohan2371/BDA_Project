@@ -33,7 +33,7 @@ app.listen(5001,()=>{
 function connRohan(){
     
     try{
-        mongoose.connect("mongodb://localhost:27017/EmployeeManagement",{
+        mongoose.connect("mongodb://localhost:27017/employeeManagement",{
             useNewUrlParser:true,useUnifiedTopology:true,
             family: 4}) 
             console.log("Database Connected Successfully");
@@ -45,7 +45,7 @@ function connRohan(){
 connRohan();
 
 
-
+    
 
 
 
